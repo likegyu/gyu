@@ -4,4 +4,4 @@ title: "test"
 tags: monologue
 ---
 
-![pic](/assets/photo/03050022.JPG)
+<img src="/assets/photo/03050022.JPG")
