@@ -53,11 +53,19 @@
 					{{ content }}
 				{% endif %}
 			{% else %}
+			{% if page.tag == 'photograph' %}
 				<ul>
-					{% for post in site.posts %}
+					{% for post in site.tags[page.tag] %}
+					<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/image.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+				{% else %}
+				<ul>
+					{% for post in site.tags[page.tag] %}
 					<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 					{% endfor %}
 				</ul>
+				{% endif %}
 			{% endunless %}
 		</div>
 		<div class="post_total">
