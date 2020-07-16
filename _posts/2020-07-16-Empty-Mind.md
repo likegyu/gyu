@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Plant"
+title: "Empty Mind"
 tag: photograph
 ---
 ![pic](/assets/photo/emptymind/1.jpg)
