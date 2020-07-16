@@ -2,7 +2,15 @@
 layout: default
 ---
 <ul>
+	{% if page.tag == 'photograph' %}
+	<ul>
+		{% for post in site.posts %}
+		<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/image.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+{% else %}
 	{% for post in site.tags[page.tag] %}
 		<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 	{% endfor %}
+{% endif %}
 </ul>
