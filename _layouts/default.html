@@ -46,9 +46,7 @@
 				{% if page.title == 'me' or page.title == '404...' %}
 					<ul>
 						{% for post in site.posts %}
-						<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
-						{% endfor %}
-					</ul>
+						<img src="/assets/img/kabigon.png">
 				{% else %}
 					{{ content }}
 				{% endif %}
@@ -80,11 +78,19 @@
 	{% if page.title %}
         <div class="content">
 			<div class="post_title">
+				{% if page.tag == 'photograph' %}
+				<img src="/assets/img/image.ico" />
+				<h1>{{  page.title  }}</h1>
+				<a href="/"><div class="btn"><span class="fa fa-times"></span></div></a>
+				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
+				<div class="btn"><span class="fa fa-window-minimize"></span></div>
+				{% else %}
 				<img src="/assets/img/file.png" />
 				<h1>{{  page.title  }}</h1>
 				<a href="/"><div class="btn"><span class="fa fa-times"></span></div></a>
 				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
 				<div class="btn"><span class="fa fa-window-minimize"></span></div>
+				{% endif %}
 			</div>
 			<ul class="topbar">
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
