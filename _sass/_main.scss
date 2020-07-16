@@ -106,10 +106,10 @@ ul.topbar {
 		list-style: none;
 
 		li {
-			display: inline-block;
+			display: inline-flex;
 			margin: 12px;
-			max-width: 16ch;
-			overflow: hidden;
+			max-width: 30px;
+			overflow: visible;
 			text-overflow: ellipsis;
 			white-space: nowrap;
 			text-align: center;
