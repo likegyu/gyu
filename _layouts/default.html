@@ -44,9 +44,7 @@
 		<div class="post_list">
 			{% unless page.date%}
 				{% if page.title == 'me' or page.title == '404...' %}
-					<ul>
-						{% for post in site.posts %}
-						<img src="/assets/img/kabigon.png">
+						<img src="/assets/img/kabigon.png" />
 				{% else %}
 					{{ content }}
 				{% endif %}
