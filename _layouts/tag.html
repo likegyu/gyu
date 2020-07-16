@@ -4,7 +4,7 @@ layout: default
 <ul>
 	{% if page.tag == 'photograph' %}
 	<ul>
-		{% for post in site.posts %}
+		{% for site.tags[page.tag] %}
 		<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/image.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
