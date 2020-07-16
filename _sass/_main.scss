@@ -149,7 +149,7 @@ ul.topbar {
 	ul {
 		li {
 			max-width: 27ch;
-			overflow: hidden;
+			overflow: visible;
 			text-overflow: ellipsis;
 			white-space: nowrap;
 		}
@@ -159,7 +159,7 @@ ul.topbar {
     background:transparent url(/assets/img/pixel-alt.png) repeat-y 15px 0;
 }
 #tag-list li {
-    padding:0 0 0 2px;
+    padding:0 0 0 4px;
 }
 #tag-list li a {
     background: #fff8ff;
@@ -167,7 +167,7 @@ ul.topbar {
 }
 #tag-list li ul li {
     background:transparent url(/assets/img/pixel-alt.png) repeat-x 0 8px;
-    margin:4px 0 4px 13px;
+    margin:4px 0 1px 13px;
     padding:0 0 0 20px;
 }
 .post_total {
