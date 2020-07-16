@@ -195,7 +195,7 @@ ul.topbar {
 	margin: 0 auto;
 	overflow-y: scroll;
 	overflow-x: hidden;
-
+	img[alt=pic] { width: 200px; }
 	p {
 		line-height: 150%;
 		margin-bottom: 15px;
