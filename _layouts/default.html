@@ -93,7 +93,11 @@
 				{% endif %}
 			</div>
 			<ul class="topbar">
+				{% if page.tag == 'photograph' %}
+				<p>photograph</p>
+				{% else %}
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+				{% endif %}
 			</ul>
 			<div class="post_content">
         		{{ content }}
