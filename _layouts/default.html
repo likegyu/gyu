@@ -44,7 +44,7 @@
 		<div class="post_list">
 			{% unless page.date%}
 				{% if page.title == 'me' or page.title == '404...' %}
-						<img src="/assets/img/kabigon.png" />
+						<img src="/assets/img/kabigon.png" height="130px"/>
 				{% else %}
 					{{ content }}
 				{% endif %}
@@ -68,7 +68,7 @@
 			{% if page.tag %}
 				<div class="left">{{ site.tags[page.tag] | size }} object(s)</div>
 			{% else %}
-				<div class="left"><p>kabigon is cute!</p></div>
+				<div class="left"><p>999 object(s)</p></div>
 			{% endif %}
 			<div class="right">&nbsp;</div>
 		</div>
@@ -92,7 +92,6 @@
 			</div>
 			<ul class="topbar">
 				{% if page.tag == 'photograph' %}
-				<p>photograph</p>
 				{% else %}
 				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
 				{% endif %}
