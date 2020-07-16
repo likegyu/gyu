@@ -196,6 +196,10 @@ ul.topbar {
 	overflow-y: scroll;
 	overflow-x: scroll;
 
+	img[alt"pic"]{
+		max-width: 100%;
+	}
+
 	p {
 		line-height: 150%;
 		margin-bottom: 15px;
