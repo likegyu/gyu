@@ -188,7 +188,7 @@ ul.topbar {
 }
 .post_content {
 	position: relative;
-	width: 98.5%;
+	max-width: 98.5%;
 	min-height: 600px;
 	max-height: 600px;
 	padding: 2px;
@@ -293,15 +293,6 @@ ul.topbar {
 		a {
 			color: #24244a;
 		}
-	}
-}
-.donate {
-	float: right;
-	padding: 0 3px 0 0;
-
-	p {
-		text-align: right;
-		word-break: break-word;
 	}
 }
 @media only screen and (max-width: 900px) {
