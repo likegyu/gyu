@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "test"
-tags: monologue
+tag: monologue
 ---
 
 ![pic](/assets/photo/03050022.JPG)
