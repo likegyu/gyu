@@ -4,7 +4,6 @@ title: "Hello world!"
 tag: monologue
 ---
 
-## Hello world!
 <br>
 ![img](/assets/photo/monologue/20200716-1.jpg)
 <br><br>
