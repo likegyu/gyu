@@ -13,4 +13,4 @@ Living in Daegu, Korea, Rep.
 
 
 Drop Out. B.A in Philosophy. Keimyung Univ.  
-Admitted 2021. B.F.A in Photography. Keimyung Univ.  
+Major in Photography. Keimyung Univ.  
