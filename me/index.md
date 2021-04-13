@@ -13,4 +13,4 @@ Living in Daegu, Korea, Rep.
 
 
 Drop Out. B.A in Philosophy. Keimyung Univ.  
-Major in Photography. Keimyung Univ.  
+Majoring in Photography. Keimyung Univ.  
