@@ -106,12 +106,13 @@ ul.topbar {
 		list-style: none;
 
 		li {
-			display: inline-flex;
+			display: inline-table;
 			margin: 12px;
 			overflow: visible;
 			text-overflow: ellipsis;
 			white-space: pre-line;
 			text-align: center;
+			width: 80px;
 
 			img {
 				display: block;
