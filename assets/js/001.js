@@ -11,7 +11,7 @@ function openFullscreen() {
 }
 
 function closeFullscreen () {
-	if (min.exitFullscreen){
+	if (min.exitFullscreen) {
 		min.exitFullscreen();
 	}
 }
