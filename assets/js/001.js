@@ -1,8 +1,8 @@
 // By: h01000110 (hi)
 // github.com/h01000110
 
-var max = document.getElementsByClassName("btn")[1];
-var min = document.getElementsByClassName("btn")[2];
+var max = document.documentElement;
+var min = document.documentElement;
 
 function openFullscreen() {
 	if (max.requestFullscreen) {
