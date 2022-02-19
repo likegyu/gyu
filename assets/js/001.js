@@ -16,5 +16,5 @@ function closeFullscreen () {
 	}
 }
 
-max.addEventListener('click', maximize, false);
-min.addEventListener('click', minimize, false);
+max.addEventListener('click', openFullscreen, false);
+min.addEventListener('click', closeFullscreen, false);
