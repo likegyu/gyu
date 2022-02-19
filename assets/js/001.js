@@ -22,6 +22,3 @@ function openFullscreen() {
 	  document.msExitFullscreen();
 	}
   }
-
-max.addEventListener('click', openFullscreen, false);
-min.addEventListener('click', closeFullscreen, false);
