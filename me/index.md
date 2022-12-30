@@ -10,7 +10,3 @@ title: me
 <br>
 사진과 영화를 좋아하는 평범한 백수.  
 Living in Daegu, Korea, Rep.  
-
-
-Drop Out. B.A in Philosophy. Keimyung Univ.  
-Majoring in Photography. Keimyung Univ.  
