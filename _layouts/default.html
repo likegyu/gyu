@@ -95,7 +95,7 @@
 			<ul class="topbar">
 				{% if page.tag == 'photograph' %}
 				{% else %}
-				<li>{{ page.date | date: '%B %-d, %Y' }}</li>
+				<li>{{ page.date | date: "%Y-%m-%d" }}</li>
 				{% endif %}
 			</ul>
 			<div class="post_content">
