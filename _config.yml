@@ -1,6 +1,9 @@
 permalink: /:year:month:day/:title
 url: https://likegyu.com
 
+#future date
+future: true
+
 # variables
 name: GYU
 description: GYU's Web Site
