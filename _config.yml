@@ -1,6 +1,7 @@
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-archives
 
 permalink: /:year:month:day/:title
 url: https://likegyu.com
