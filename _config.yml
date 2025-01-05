@@ -21,7 +21,7 @@ exclude: ["README.md", "LICENSE"]
 
 # Sass
 sass:
-  style: :compressed
+  style: expanded
   sass_dir: _sass
 
 # Markdown
